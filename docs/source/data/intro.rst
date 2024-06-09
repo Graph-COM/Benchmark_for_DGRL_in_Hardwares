@@ -68,7 +68,7 @@ TIME is originally from `A Timing Engine Inspired Graph Neural Network Model for
 
 Similar to timing analysis tools, circuits in this dataset are represented as heterogeneous graphs consisting of two types of edges: net edges and cell edges.
 The nodes in graphs denote pins in circuits.
-The TIME dataset collects 21 real-world benchmark circuits from OpenCores with OpenROAD on SkyWater $130$nm technology (i.e. blabla, usb\_cdc\_core, BM64, salsa20, aes128, aes192, aes256, wbqspiflash, cic\_decimator, des, aes\_cipher, picorv32a, zipdiv, genericfir, usb, jpeg\_encoder, usbf\_device, xtea, spm, y\_huff, and synth\_ram).
+The TIME dataset collects 21 real-world benchmark circuits from OpenCores with OpenROAD on SkyWater 130nm technology (i.e. blabla, usb\_cdc\_core, BM64, salsa20, aes128, aes192, aes256, wbqspiflash, cic\_decimator, des, aes\_cipher, picorv32a, zipdiv, genericfir, usb, jpeg\_encoder, usbf\_device, xtea, spm, y\_huff, and synth\_ram).
 More information can be found in the original paper.
 
 .. image:: time/fig/time_slack.pdf
