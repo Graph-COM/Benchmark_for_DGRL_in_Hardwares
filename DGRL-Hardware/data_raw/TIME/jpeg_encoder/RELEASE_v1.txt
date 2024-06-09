@@ -1,0 +1,3 @@
+# Release note for jpeg_encoder
+
+### v1: 2024-01-12
