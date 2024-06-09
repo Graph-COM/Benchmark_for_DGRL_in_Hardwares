@@ -5,7 +5,7 @@ We provide a function that could obtain magnetic Laplacian PE based on `torch_ge
 
 The class is located at `./maglap/get_mag_lap.py <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL-Hardware/maglap/get_mag_lap.py.>`_ and is as follows:
 
-.. code_block:: python
+.. code-block:: python
 
     @functional_transform('add_mag_laplacian_eigenvector_pe')
     class AddMagLaplacianEigenvectorPE(BaseTransform):
