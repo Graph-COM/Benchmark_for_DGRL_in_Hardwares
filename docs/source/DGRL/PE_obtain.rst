@@ -3,7 +3,7 @@ Obtain Magnetic Laplacian PE via PyG Pretransform
 
 We provide a function that could obtain magnetic Laplacian PE based on `torch_geometric.transforms <https://pytorch-geometric.readthedocs.io/en/latest/modules/transforms.html>`_, our codes is built on `AddLaplacianEigenvectorPE <https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.transforms.AddLaplacianEigenvectorPE.html#torch_geometric.transforms.AddLaplacianEigenvectorPE>`.
 
-The class is located at ``_ and is as follows:
+The class is located at `./maglap/get_mag_lap.py <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL-Hardware/maglap/get_mag_lap.py.`_ and is as follows:
 
 .. code_block:: python
 
