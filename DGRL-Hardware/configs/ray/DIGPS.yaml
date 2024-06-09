@@ -1,0 +1,25 @@
+name: DIGPS
+# for HLS hidden_dim: [4,15]
+hidden_dim: [2,6]
+num_layers: [3,6]
+# for HLS lr: [1e-4, 5e-3]
+lr: [1e-4, 1e-2]
+# for others:
+#batch_size: [64, 128, 256, 512, 1024]
+# for HLS:
+batch_size: [32, 64, 128, 256]
+dropout: [0, 0.1, 0.2, 0.3]
+# for HLS node_input_dim: 7
+pe_dim_input: 20
+pe_dim_output: 8
+
+mlp_out:
+  num_layer: [2,5]
+
+# LS task only
+sequence_hidden_dim: 20
+sequence_input_dim: 10
+num_node: 1045
+
+# SR task only
+num_class: 3

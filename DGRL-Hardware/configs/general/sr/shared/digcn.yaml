@@ -1,0 +1,39 @@
+# sample_config.yaml
+
+utils:
+  seed: 123
+  torch_num_threads: 10
+
+task:
+  name: 'SR'
+  type: SR # type: cdfg or dfg
+  target: shared # different target prediction
+  processed_folder: '~/DGRL-Hardware/data_processed/'
+  divide_seed: default #set as default or a seed
+  raw_data_path: '~/DGRL-Hardware/data_raw/SR/'
+  data_processor: SRDataProcessor
+
+train:
+  batch_size: 1
+  epoch: 1000
+  optimizer: Adam
+  scheduler: 
+    name: StepLR
+    step_size: 100
+    gamma: 0.95
+  lr : 0.004041789734749537
+  criterion: CE
+  wandb: 0
+  train_files: '~/DGRL-Hardware/train_files/'
+  directed: 1
+
+model: 
+  name: DIGCN
+  num_class: 3
+  hidden_dim: 192
+  num_layers: 5
+  node_input_dim: 7
+  edge_input_dim: 2
+  dropout: 0.1
+  mlp_out:
+    num_layer: 4

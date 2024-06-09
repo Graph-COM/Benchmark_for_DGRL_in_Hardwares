@@ -1,0 +1,38 @@
+# sample_config.yaml
+
+utils:
+  seed: 123
+  torch_num_threads: 10
+
+task:
+  name: 'AMP'
+  type: AMP # type: cdfg or dfg
+  target: pm # different target prediction
+  processed_folder: '~/DGRL-Hardware/data_processed/'
+  divide_seed: default #set as default or a seed
+  raw_data_path: '~/DGRL-Hardware/data_raw/AMP/'
+  data_processor: AMPDataProcessor
+
+train:
+  batch_size: 1024
+  epoch: 300
+  optimizer: Adam
+  scheduler: 
+    name: StepLR
+    step_size: 100
+    gamma: 0.95
+  lr : 0.006412128741705198
+  criterion: MSE
+  wandb: 0
+  train_files: '~/DGRL-Hardware/train_files/'
+  directed: 1
+
+model: 
+  name: BIGCN
+  hidden_dim: 144
+  num_layers: 7
+  node_input_dim: 7
+  edge_input_dim: 2
+  dropout: 0.2
+  mlp_out:
+    num_layer: 2
