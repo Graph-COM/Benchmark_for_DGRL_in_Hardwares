@@ -13,15 +13,13 @@ The toolbox is built based on `Pytorch 2.0 <https://pytorch.org/get-started/pyto
 .. toctree::
 
    environment/environment
-   data/raw
-   data/intro
-   data/process.rst
+   
 
 
 Get Started
 --------
    
-   - `Environment Requirement <environment/environment.rst>`_
+   - `Environment Requirement <environment/environment>`_
 
 
 Datasets
