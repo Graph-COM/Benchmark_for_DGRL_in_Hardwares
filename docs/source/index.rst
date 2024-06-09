@@ -19,7 +19,7 @@ The toolbox is built based on `Pytorch 2.0 <https://pytorch.org/get-started/pyto
 Get Started
 --------
    
-   - `Environment Requirement <environment/environment>`_
+   - `Environment Requirement <environment/environment.html>`_
 
 
 Datasets
