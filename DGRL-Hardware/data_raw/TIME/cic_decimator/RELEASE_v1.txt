@@ -1,0 +1,3 @@
+# Release note for cic_decimator
+
+### v1: 2024-01-12
