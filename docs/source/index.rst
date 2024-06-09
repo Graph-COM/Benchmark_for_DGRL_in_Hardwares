@@ -1,26 +1,25 @@
 Welcome to DGRL-Hardware's documentation!
 ===================================
 
-Here we provide a toolbox for directed graph representation learning (DGRL) in hardwares, involving DGRL model configuration, hyper-parameter auto-tuning, methods evaluation on 5 existing datasets/tasks from the hardware design loop.
+DGRL-Hardware is a toolbox for benchmarking directed graph representation learning (DGRL) in hardwares, involving DGRL model configuration, hyper-parameter auto-tuning, and evaluation on our selected datasets/tasks from the hardware design loop.
 
-The toolbox is built based on Pytorch, PyTorch Geometric, RAY.
-
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients. Lumache hosts its documentation on Read the Docs.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API. 
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+The toolbox is built based on `Pytorch 2.0 <https://pytorch.org/get-started/pytorch-2.0/>`_, `PyTorch Geometric <https://pytorch-geometric.readthedocs.io>`_, `RAY Tune <https://docs.ray.io/en/latest/tune/index.html>`_ .
 
 .. note::
 
    This project is under active development.
 
-Contents
+Get Started
 --------
+   
+   - `Environment Requirement <environment>`_
 
-.. toctree::
 
-   usage
-   api
+Datasets
+-------
+
+   - `Dataset Introduction <datasets>`_
+   - `Raw Data <raw_format>`_
+   - `Process Data compatiable to PyG <data_process>`_
+
+
