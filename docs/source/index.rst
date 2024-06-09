@@ -12,14 +12,14 @@ The toolbox is built based on `Pytorch 2.0 <https://pytorch.org/get-started/pyto
 Get Started
 --------
    
-   - `Environment Requirement <environment/environment.rst>`_
+   - `Environment Requirement <environment/environment>`_
 
 
 Datasets
 -------
 
-   - `Dataset Introduction <data/intro.rst>`_
+   - `Dataset Introduction <data/intro>`_
    - `Raw Data <data/raw.rst>`_
-   - `Process Data compatiable to PyG <data/process.rst>`_
+   - `Process Data compatiable to PyG <data/process>`_
 
 
