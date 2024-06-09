@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'A Benchmark for Directed Graph Representation Learning in Hardware Designs'
+project = 'DGRL-Hardware'
 copyright = '2024, Graph-COM'
 author = 'Graph-COM'
 
