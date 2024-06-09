@@ -20,7 +20,7 @@ Datasets
 -------
 
    - `Dataset Introduction <data/intro.html>`_
-   - `Raw Data <data/raw.rst>`_
-   - `Process Data compatiable to PyG <data/process.rst>`_
+   - `Raw Data <data/raw.html>`_
+   - `Process Data compatiable to PyG <data/process.html>`_
 
 
