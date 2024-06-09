@@ -6,7 +6,7 @@ Environment
 
 Installation
 ------------
-We recommend environment management with [Conda](https://docs.conda.io/projects/conda/en/stable/user-guide/install/index.html). The supports below are based on Conda.
+We recommend environment management with `Conda <https://docs.conda.io/projects/conda/en/stable/user-guide/install/index.html>`_. The supports below are based on Conda.
 
 To config a DGRL method and train the model on existing datasets, the following packages are required:
 
