@@ -60,3 +60,8 @@ By pairing one XOR function with one MAJ function sharing the same set of inputs
 
 .. image:: fig/sr/multi8_aig.pdf
 
+
+
+Data Format
+============
+
