@@ -58,8 +58,50 @@ Figure below shows the AIG of an 8-bit multiplier: the blue and red nodes are th
 By pairing one XOR function with one MAJ function sharing the same set of inputs, we can extract the adder tree.
   
 
-.. image:: fig/sr/multi8_aig.pdf
+.. image:: sr/fig/multi8_aig.pdf
 
+
+Pre-routing Timing Prediction (TIME)
+_____________________________________
+
+TIME is originally from `A Timing Engine Inspired Graph Neural Network Model for Pre-Routing Slack Prediction <https://guozz.cn/publication/mltimerdac-22/mltimerdac-22.pdf>`_, 
+
+Similar to timing analysis tools, circuits in this dataset are represented as heterogeneous graphs consisting of two types of edges: net edges and cell edges.
+The nodes in graphs denote pins in circuits.
+The TIME dataset collects 21 real-world benchmark circuits from OpenCores with OpenROAD on SkyWater $130$nm technology (i.e. blabla, usb\_cdc\_core, BM64, salsa20, aes128, aes192, aes256, wbqspiflash, cic\_decimator, des, aes\_cipher, picorv32a, zipdiv, genericfir, usb, jpeg\_encoder, usbf\_device, xtea, spm, y\_huff, and synth\_ram).
+More information can be found in the original paper.
+
+.. image:: time/fig/time_slack.pdf
+
+Computational Graph (CG)
+________________________
+
+CG is originally from `nn-Meter: towards accurate latency prediction of deep-learning model inference on diverse edge devices <https://dl.acm.org/doi/10.1145/3458864.3467882>`_, 
+
+
+This dataset includes (1) 12 state-of-the-art CNN models for the ImageNet2012 classification task (i.e., AlexNet, VGG, DenseNet, ResNet, SqueezeNet, GoogleNet, MobileNetv1,  MobileNetv2,  MobileNetv3, ShuffleNetv2, MnasNet, and ProxylessNas), each with 2,000 variants that differ in output channel number and kernel size per layer, and (2) 2,000 models from NASBench201 with the highest test accuracy on CIFAR10, each featuring a unique set of edge connections.
+In total, this dataset contains 26,000 models with different operators and configurations.
+Figure below shows an example of the computational graph of a model in NASBench201.
+
+Node features include input shape (5 dimensions), kernel/weight shape (padding to 4 dimensions), strides (2 dimensions), and output shape (5 dimensions).
+Each computational graph is labeled with the inference latency on three edge devices (i.e., Cortex A76 CPU, Adreno 630 GPU, Adreno 640 GPU).
+There is no edge feature in this dataset.
+More information can be found in the original paper.
+
+.. image:: cg/fig/compute_graph.png
+
+Multi-Stage Amplifiers (AMP)
+____________________________
+
+AMP is originally from `CktGNN: Circuit Graph Neural Network for Electronic Design Automation <https://arxiv.org/abs/2308.16406>`_, 
+
+This dataset focuses on predicting circuit specifications (e.g., DC gain, bandwidth (BW), phase margin (PM)) of 2/3-stage operational amplifiers (Op-Amps), which are simulated by the circuit simulator Cadence Spectre.
+A 2/3-stage Op-Amp consists of (1) two/three single-stage Op-Amps on the main feedforwoard path and (2) several feedback paths, with one example shown in the right part of Figure.
+
+To make multi-stage Op-Amps more stable, feedforward and feedback paths are used to achieve different compensation schemes, each of which is implemented with a sub-circuit, e.g., single-stage Op-Amps, resistors, and capacitors.
+Due to the different topologies of single-stage Op-Amps and various compensation schemes, each sub-circuit is built as a subgraph.
+
+.. image:: cg/fig/analog.pdf
 
 
 Data Format
