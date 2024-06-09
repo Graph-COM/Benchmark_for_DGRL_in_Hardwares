@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'A Benchmark for Directed Graph Representation Learning in Hardware Designs'
+copyright = '2024, Graph-COM'
+author = 'Graph-COM'
 
 release = '0.1'
 version = '0.1.0'
