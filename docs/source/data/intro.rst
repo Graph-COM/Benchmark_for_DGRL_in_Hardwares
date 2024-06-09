@@ -58,7 +58,7 @@ Figure below shows the AIG of an 8-bit multiplier: the blue and red nodes are th
 By pairing one XOR function with one MAJ function sharing the same set of inputs, we can extract the adder tree.
   
 
-.. image:: sr/fig/multi8_aig.pdf
+.. image:: sr/fig/Multi8_aig.pdf
 
 
 Pre-routing Timing Prediction (TIME)
@@ -101,9 +101,6 @@ A 2/3-stage Op-Amp consists of (1) two/three single-stage Op-Amps on the main fe
 To make multi-stage Op-Amps more stable, feedforward and feedback paths are used to achieve different compensation schemes, each of which is implemented with a sub-circuit, e.g., single-stage Op-Amps, resistors, and capacitors.
 Due to the different topologies of single-stage Op-Amps and various compensation schemes, each sub-circuit is built as a subgraph.
 
-.. image:: cg/fig/analog.pdf
+.. image:: amp/fig/analog.pdf
 
-
-Data Format
-============
 
