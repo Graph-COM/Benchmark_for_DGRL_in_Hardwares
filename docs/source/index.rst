@@ -25,7 +25,7 @@ Get Started
 Datasets
 -------
 
-   - `Dataset Introduction <data/intro.rst>`_
+   - `Dataset Introduction <data/intro.html>`_
    - `Raw Data <data/raw.rst>`_
    - `Process Data compatiable to PyG <data/process.rst>`_
 
