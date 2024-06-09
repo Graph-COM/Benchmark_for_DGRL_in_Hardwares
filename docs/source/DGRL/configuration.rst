@@ -1,7 +1,10 @@
-Cnnfiguration for Models
-=========================
+Cnnfiguration for Models (General Configuration)
+=================================================
 
-Users can config a method involved in our tollbox. An example of the configuration file is as follows:
+Users can config a method involved in our tollbox. 
+
+All the configurations searched with RAY for the datasets are provided in `./configs/general <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL-Hardware/configs/general>`_.
+An example of the configuration file is as follows:
 
 .. code-block:: yaml
 
