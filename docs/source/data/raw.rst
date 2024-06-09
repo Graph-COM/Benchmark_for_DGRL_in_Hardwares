@@ -1,7 +1,7 @@
 Raw Data
 =========
 
-All the raw data of the selected datasets and tasks are pre-processed into .csv format and saved in `./dataset <>` folder.
+All the raw data of the selected datasets and tasks are pre-processed into .csv format and saved in `./dataset <>`_ folder.
 
 The csv file encode the raw data information as follows:
 
