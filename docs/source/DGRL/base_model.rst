@@ -43,6 +43,6 @@ The DGRL-Hardware toolbox currently supports  GNN backbones/graph transformers, 
 | GPS-P                    | bidirected     | BIPERFORMER    |
 +--------------------------+----------------+----------------+
 
-The implementation of each methods are in ./models/base_model.py <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL-Hardware/models/base_model.py>`_.
+The implementation of each methods are in `./models/base_model.py <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL-Hardware/models/base_model.py>`_.
 
 
