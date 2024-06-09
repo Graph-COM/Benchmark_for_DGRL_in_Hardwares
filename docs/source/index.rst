@@ -21,8 +21,8 @@ Datasets
 
    - `Dataset Introduction <data/intro.html>`_
 
-   - `Raw Data <data/raw.html>`_
+   - `Raw Data Format <data/raw.html>`_
 
-   - `Process Data compatiable to PyG <data/process.html>`_
+   - `DataProcessor <data/process.html>`_
 
 
