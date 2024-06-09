@@ -1,7 +1,7 @@
 Raw Data
 =========
 
-All the raw data of the selected datasets and tasks are pre-processed into .csv format and saved in `./dataset <>`_ folder.
+All the raw data of the selected datasets and tasks are pre-processed into .csv format and saved in `./dataset <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL-Hardware/data_raw>`_ folder.
 
 The csv file encode the raw data information as follows:
 
