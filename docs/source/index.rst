@@ -1,5 +1,5 @@
 Welcome to DGRL-Hardware's documentation!
-===================================https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/blob/main/docs/source/index.rst
+===================================
 
 DGRL-Hardware is a toolbox for benchmarking directed graph representation learning (DGRL) in hardwares, involving DGRL model configuration, hyper-parameter auto-tuning, and evaluation on our selected datasets/tasks from the hardware design loop.
 
