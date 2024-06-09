@@ -1,1 +1,8 @@
 
+Environment
+=====
+
+.. _installation:
+
+Installation
+------------
