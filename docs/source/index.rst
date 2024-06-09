@@ -1,5 +1,9 @@
-Welcome to Lumache's documentation!
+Welcome to DGRL-Hardware's documentation!
 ===================================
+
+Here we provide a toolbox for directed graph representation learning (DGRL) in hardwares, involving DGRL model configuration, hyper-parameter auto-tuning, methods evaluation on 5 existing datasets/tasks from the hardware design loop.
+
+The toolbox is built based on Pytorch, PyTorch Geometric, RAY.
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
 that creates recipes mixing random ingredients. Lumache hosts its documentation on Read the Docs.
