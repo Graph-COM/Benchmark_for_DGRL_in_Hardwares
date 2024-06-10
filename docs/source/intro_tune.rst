@@ -2,7 +2,7 @@ Tune with RAY after Model Configuration
 ========================================
 
 
-.. figure:: fig/code_frame.pdf
+.. figure:: fig/code_frame.png
 
 An example command totune with ray could be:
 
