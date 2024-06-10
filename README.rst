@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
-=======================================
+A Benchmark for Directed Graph Representation Learning in Hardware Designs
+===========================================================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Read the document here:
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+https://benchmark-for-dgrl-in-hardwares.readthedocs.io/en/latest/
