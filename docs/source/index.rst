@@ -44,6 +44,15 @@ PE
 
    - `Incorporate Magnetic Laplician PE for Digraphs <DGRL/PE_usage.html>`_
 
+
+
+Auto-Tuning with RAY
+=====================
+
+   - `design hyper-parameter space <ray/config.html>`_
+
+   - `tune with RAY <ray/functions.html>`_
+
    
 
 
