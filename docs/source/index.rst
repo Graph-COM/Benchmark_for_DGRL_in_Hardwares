@@ -27,6 +27,8 @@ Get Started
 
    - `Evaluation on Existing Datasets <intro_evaluation.html>`_
 
+   .. image:: fig/code_frame.pdf
+
 
 Datasets
 ===========
