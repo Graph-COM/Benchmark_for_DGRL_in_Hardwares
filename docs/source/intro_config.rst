@@ -2,7 +2,7 @@ Introduction of Configs
 =========================
 
 
-.. figure:: fig/code_frame.pdf
+.. figure:: fig/code_frame.png
 
 To config a base model, one should go to `./configs/general/ <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL-Hardware/configs/general>`_, and see `base model configuration <DGRL/condifguration.html>`_ for details.
 
