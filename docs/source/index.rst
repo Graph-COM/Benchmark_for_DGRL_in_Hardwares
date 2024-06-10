@@ -19,6 +19,15 @@ Get Started
    - `Environment Requirement <environment/environment.html>`_
 
 
+   - `Config a method <intro_config.html>`_
+
+
+   - `Tune with RAY <intro_tune.html>`_
+
+
+   -`Evaluation on Existing Datasets <intro_evaluate.html>`_
+
+
 Datasets
 ===========
 
