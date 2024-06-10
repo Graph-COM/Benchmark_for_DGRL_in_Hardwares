@@ -10,7 +10,7 @@ The toolbox is built based on `Pytorch 2.0 <https://pytorch.org/get-started/pyto
    This project is under active development.
 
 
-.. image:: fig/toolbox.pdf
+.. image:: fig/toolbox.png
 
 
 Get Started
@@ -27,7 +27,7 @@ Get Started
 
    - `Evaluation on Existing Datasets <intro_evaluation.html>`_
 
-   .. image:: fig/code_frame.pdf
+   .. image:: fig/code_frame.png
 
 
 Datasets
