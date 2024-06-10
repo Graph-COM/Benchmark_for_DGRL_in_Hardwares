@@ -1,6 +1,9 @@
 Tune with RAY after Model Configuration
 ========================================
 
+
+.. figure:: fig/code_frame.pdf
+
 An example command totune with ray could be:
 
 .. code-block:: sh
