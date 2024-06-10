@@ -3,7 +3,7 @@ Datasets and Tasks Overview
 
 The DGRL-Hardware benchmark currently select 5 datasets with 13 tasks in total fronm the hardware design loop, as illustrate in the figure below:
 
-.. image:: fig/line.pdf
+.. image:: fig/line.png
    :alt: Selected Datasets and Tasks
 
 
@@ -26,8 +26,8 @@ More information can be found in the original paper.
    :widths: 50 50
    :header-rows: 0
 
-   * - .. image:: hls/fig/HLS_cdfg.pdf
-     - .. image:: hls/fig/hls_example_program.pdf
+   * - .. image:: hls/fig/HLS_cdfg.png
+     - .. image:: hls/fig/hls_example_program.png
 
 
          
@@ -58,7 +58,7 @@ Figure below shows the AIG of an 8-bit multiplier: the blue and red nodes are th
 By pairing one XOR function with one MAJ function sharing the same set of inputs, we can extract the adder tree.
   
 
-.. image:: sr/fig/Multi8_aig.pdf
+.. image:: sr/fig/Multi8_aig.png
 
 
 Pre-routing Timing Prediction (TIME)
@@ -71,7 +71,7 @@ The nodes in graphs denote pins in circuits.
 The TIME dataset collects 21 real-world benchmark circuits from OpenCores with OpenROAD on SkyWater 130nm technology (i.e. blabla, usb\_cdc\_core, BM64, salsa20, aes128, aes192, aes256, wbqspiflash, cic\_decimator, des, aes\_cipher, picorv32a, zipdiv, genericfir, usb, jpeg\_encoder, usbf\_device, xtea, spm, y\_huff, and synth\_ram).
 More information can be found in the original paper.
 
-.. image:: time/fig/time_slack.pdf
+.. image:: time/fig/time_slack.png
 
 Computational Graph (CG)
 ________________________
@@ -101,6 +101,6 @@ A 2/3-stage Op-Amp consists of (1) two/three single-stage Op-Amps on the main fe
 To make multi-stage Op-Amps more stable, feedforward and feedback paths are used to achieve different compensation schemes, each of which is implemented with a sub-circuit, e.g., single-stage Op-Amps, resistors, and capacitors.
 Due to the different topologies of single-stage Op-Amps and various compensation schemes, each sub-circuit is built as a subgraph.
 
-.. image:: amp/fig/analog.pdf
+.. image:: amp/fig/analog.png
 
 
