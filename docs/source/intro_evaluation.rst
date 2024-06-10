@@ -1,7 +1,7 @@
 Model Evaluation with Existing Methods
 ========================================
 
-.. figure:: fig/code_frame.pdf
+.. figure:: fig/code_frame.png
 
 An example command to evaluate could be:
 
