@@ -1,6 +1,8 @@
 Model Evaluation with Existing Methods
 ========================================
 
+.. figure:: fig/code_frame.pdf
+
 An example command to evaluate could be:
 
 .. code-block:: sh
