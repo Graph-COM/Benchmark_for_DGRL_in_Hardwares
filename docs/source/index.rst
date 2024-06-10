@@ -25,7 +25,7 @@ Get Started
    - `Tune with RAY <intro_tune.html>`_
 
 
-   -`Evaluation on Existing Datasets <intro_evaluation.html>`_
+   - `Evaluation on Existing Datasets <intro_evaluation.html>`_
 
 
 Datasets
