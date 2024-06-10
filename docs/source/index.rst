@@ -14,13 +14,13 @@ The toolbox is built based on `Pytorch 2.0 <https://pytorch.org/get-started/pyto
 
 
 Get Started
---------
+==============
    
    - `Environment Requirement <environment/environment.html>`_
 
 
 Datasets
--------
+===========
 
    - `Dataset Introduction <data/intro.html>`_
 
@@ -30,7 +30,7 @@ Datasets
 
 
 DGRL Methods
-------------
+================
 
    - `Configuration file to config existing methods <DGRL/configuration.html>`_
 
@@ -38,7 +38,7 @@ DGRL Methods
    - `Base Models: GNN backbones or Graph Transformers <DGRL/base_model.html>`_
 
 PE
-~~~~~~ 
+------ 
 
    - `Obtain Magnetic Laplician PE for Digraphs <DGRL/PE_obtain.html>`_
 
