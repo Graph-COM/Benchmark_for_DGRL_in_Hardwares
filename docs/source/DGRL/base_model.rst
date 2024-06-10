@@ -6,11 +6,11 @@ The DGRL-Hardware toolbox currently supports  GNN backbones/graph transformers, 
 +--------------------------+----------------+----------------+
 | GNN backbone/transformer | mesage passing | name in config |
 +==========================+================+================+
-| DGCN                     |     \-         | DGCN           |
+| DGCN                     |     directed   | DGCN           |
 |                          |                |                |
-| DiGCN                    |     \-         | DiiGCN         |
+| DiGCN                    |     directed   | DiiGCN         |
 |                          |                |                |
-| MagNet                   |     \-         | MSGNN          |
+| MagNet                   |     directed   | MSGNN          |
 |                          |                |                |
 | GCN                      | undirected     | GCN            |
 |                          |                |                |
