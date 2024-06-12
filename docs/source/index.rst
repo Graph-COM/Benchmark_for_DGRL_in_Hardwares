@@ -60,13 +60,23 @@ To get started, one may first set-up the environment, then one may config DGRL m
    
 
 
-Introduction on Existing Datasets
+Introduction and Interface of Existing Datasets
 ====================================
 
-   - `Dataset Introduction <data/intro.html>`_
+   - `Dataset Overview <data/intro.html>`_
+
+   - `High-Level Synthesis (HLS) <data/hls.html>`_
+
+   - `Symbolic Reasoning (SR) <data/sr.html>`_
+
+   - `Pre-Routing Time Prediction (TIME) <data/time.html>`_
+
+   - `Computational Graph (CG) <data/cg.html>`_
+
+   - `Operational Amplifiers (AMP) <data/amp.html>`_
 
 
-Introduction on Included DGRL Methods
+Introduction and Interface of Included DGRL Methods
 =======================================
 
    - `Configuration file to config existing methods <DGRL/configuration.html>`_
@@ -74,7 +84,7 @@ Introduction on Included DGRL Methods
 
    - `Base Models: GNN backbones or Graph Transformers <DGRL/base_model.html>`_
 
-Introduction to Positional Encoding (PE)
+Introduction and Interface of Positional Encoding (PE)
 ------------------------------------------
 
    - `Obtain Magnetic Laplician PE for Digraphs <DGRL/PE_obtain.html>`_
