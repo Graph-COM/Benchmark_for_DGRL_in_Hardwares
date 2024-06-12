@@ -9,31 +9,31 @@ Specifically, one gives the inititalization:
 .. code-block:: python
 
     class BaseModel(torch.nn.Module):
-      def __init__(self, **kwargs):
-        if self.base_model == $New_method:
+        def __init__(self, **kwargs):
+            if self.base_model == $New_method:
             # define the init of new method
-            self.conv = #New_conv
+                self.conv = #New_conv
 
-        # an example could be:
-        if self.base_model in ['GINE', 'DIGINE']:
-            nn = Sequential(
-                Linear(self.hidden_dim, self.hidden_dim),
-                BatchNorm1d(self.hidden_dim),
-                ReLU(),
-                Dropout(self.dropout),)
-            self.conv = GINEConv(nn)
+            # an example could be:
+            if self.base_model in ['GINE', 'DIGINE']:
+                nn = Sequential(
+                    Linear(self.hidden_dim, self.hidden_dim),
+                    BatchNorm1d(self.hidden_dim),
+                    ReLU(),
+                    Dropout(self.dropout),)
+                self.conv = GINEConv(nn)
     
 And then gives the implementation:
 
 .. code-block:: python
 
     class BaseModel(torch.nn.Module):
-      def forward(self, x, edge_index, batch, **kwargs):
-        if self.base_model == $New_method:
-            x = self.conv(x, edge_index, kwargs['edge_attr'])
-        # an example could be:
-        if self.base_model in ['GINE', 'DIGINE']:
-            x = self.conv(x, edge_index, kwargs['edge_attr'])
+        def forward(self, x, edge_index, batch, **kwargs):
+            if self.base_model == $New_method:
+                x = self.conv(x, edge_index, kwargs['edge_attr'])
+            # an example could be:
+            if self.base_model in ['GINE', 'DIGINE']:
+                x = self.conv(x, edge_index, kwargs['edge_attr'])
 
 
 
