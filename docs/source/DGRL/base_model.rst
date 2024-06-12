@@ -11,7 +11,7 @@ DGCN
 
 .. code-block:: python
       def 
-.. automodule:: DGRL-Hardware.models.base_model.BaseModel
+.. automodule:: DGRL-Hardware.models.base_model
     :members:
     :exclude-members:
 
