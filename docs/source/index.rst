@@ -45,9 +45,9 @@ To get started, one may first set-up the environment, then one may config DGRL m
 
       In this section, we introduce how to config a dataset. One may select form the existing dataset or customize a novel dataset.
 
-      - `Select from existing datasets <data_select.html>`_
+      - `Select from existing datasets <data/data_select.html>`_
 
-      - `Customize new datasets <data_customize.html>`_
+      - `Customize new datasets <datadata_customize.html>`_
 
    -  `Tune with RAY <intro_tune.html>`_
 
