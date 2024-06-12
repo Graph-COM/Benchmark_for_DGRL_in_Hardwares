@@ -65,10 +65,6 @@ Introduction on Existing Datasets
 
    - `Dataset Introduction <data/intro.html>`_
 
-   - `Raw Data Format <data/raw.html>`_
-
-   - `DataProcessor <data/process.html>`_
-
 
 Introduction on Included DGRL Methods
 =======================================
