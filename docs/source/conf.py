@@ -2,11 +2,12 @@
 
 import os
 import sys
-print("sys.path before modification:", sys.path)
-sys.path.insert(0, os.path.abspath('../..'))
-print("sys.path before modification:", sys.path)
-sys.path.insert(0, os.path.abspath('../../..'))
-print("sys.path before modification:", sys.path)
+
+print("Current working directory:", os.getcwd())
+
+ys.path.insert(0, os.path.abspath('../..'))
+print("sys.path after modification:", sys.path)
+
 
 import DGRL_Hardware
 
