@@ -28,34 +28,39 @@ DGRL-hardware is built and controlled by three configurations, namely the genera
 
 To get started, one may first set-up the environment, then one may config DGRL methods (select an existing method or design a novel method) and config datasets (select an existing dataset or introduce a new dataset). After the DGRL method is configured, one may run RAY-tune for hyper-parameter tuning and then conduct performance evaluation.
    
-   -  `Environment Requirement <environment/environment.html>`_
+`Environment Requirement <environment/environment.html>`_\
+-------------------------------------------------------------
       
-      In this section, we introduce the basic environment requirement to tun the toolbox.
+In this section, we introduce the basic environment requirement to tun the toolbox.
 
 
-   -  Config a method
+Config a method
+------------------
 
-      In this section, we introduce how to config a DGRL method in the toolbox. One may directly select from an existing method or customize a novel method.
+In this section, we introduce how to config a DGRL method in the toolbox. One may directly select from an existing method or customize a novel method.
 
-      - `Select from existing methods <DGRL/method_select.html>`_
+- `Select from existing methods <DGRL/method_select.html>`_
 
-      - `Customize new backbone/PE/message passing methods <DGRL/method_customize.html>`_
+- `Customize new backbone/PE/message passing methods <DGRL/method_customize.html>`_
 
-   -  Config a dataset
+Config a dataset
+---------------------
 
-      In this section, we introduce how to config a dataset. One may select form the existing dataset or customize a novel dataset.
+In this section, we introduce how to config a dataset. One may select form the existing dataset or customize a novel dataset.
 
-      - `Select from existing datasets <data/data_select.html>`_
+- `Select from existing datasets <data/data_select.html>`_
 
-      - `Customize new datasets <data/data_customize.html>`_
+- `Customize new datasets <data/data_customize.html>`_
 
-   -  `Tune with RAY <intro_tune.html>`_
+`Tune with RAY <intro_tune.html>`_
+--------------------------------------
 
-      In this section, we show the interface on how to do hyper-parameter with the help of RAY, and how to config the search space.
+In this section, we show the interface on how to do hyper-parameter with the help of RAY, and how to config the search space.
 
-   -  `Evaluation on Existing Datasets <intro_evaluation.html>`_
+`Evaluation on Existing Datasets <intro_evaluation.html>`_
+----------------------------------------------------------------
 
-      In this section, we introduce how to evaluate configured method on configured datasets.
+In this section, we introduce how to evaluate configured method on configured datasets.
 
    
 
