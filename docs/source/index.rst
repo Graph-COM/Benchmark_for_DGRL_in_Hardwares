@@ -97,7 +97,7 @@ Introduction and Interface of DGRL Methods
 
 .. image:: fig/combination_method.png
 
-Introduction and Interface of Positional Encoding (PE)
+`Introduction and Interface of Positional Encoding (PE) <intro_pe.html>`_
 ---------------------------------------------------------
 
 - `Obtain Magnetic Laplician PE for Digraphs <DGRL/PE_obtain.html>`_
