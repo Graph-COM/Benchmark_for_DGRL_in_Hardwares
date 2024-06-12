@@ -88,7 +88,7 @@ An example to config PE is shown as follows:
           out: 8
           num_layer: 3
 
- The table below show the configuration to use for magnetic Laplacian PE with NPE or EPE:
+The table below show the configuration to use for magnetic Laplacian PE with NPE or EPE:
 
 +--------+-------------+---------+-----------------+-------------+---------------------------------------+
 | stable | potential q | pe_type | pe_strategy     | pe_embedder | example                               |
