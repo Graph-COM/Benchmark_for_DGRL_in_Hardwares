@@ -26,7 +26,7 @@ DGRL-hardware is built and controlled by three configurations, namely the genera
 
 To get started, one may first set-up the environment, then one may config DGRL methods (select an existing method or design a novel method) and config datasets (select an existing dataset or introduce a new dataset). After the DGRL method is configured, one may run RAY-tune for hyper-parameter tuning and then conduct performance evaluation.
    
-1. `Environment Requirement <environment/environment.html>`_\
+1. `Environment Requirement <environment/environment.html>`_
 -------------------------------------------------------------
       
 In this section, we introduce the basic environment requirement to tun the toolbox.
