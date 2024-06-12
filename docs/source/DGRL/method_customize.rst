@@ -6,7 +6,7 @@ To customize a new methods other than existing base models, one should give the 
 
 Specifically, one gives the inititalization: 
 
-.. code-block :: python
+.. code-block:: python
 
     class BaseModel(torch.nn.Module):
       def __init__(self, **kwargs):
@@ -25,7 +25,7 @@ Specifically, one gives the inititalization:
     
 And then gives the implementation:
 
-.. code-block :: python
+.. code-block:: python
 
     class BaseModel(torch.nn.Module):
       def forward(self, x, edge_index, batch, **kwargs):
