@@ -2,7 +2,9 @@
 
 import os
 import sys
+print("sys.path before modification:", sys.path)
 sys.path.insert(0, os.path.abspath('..'))
+print("sys.path before modification:", sys.path)
 
 import DGRL_Hardware
 
