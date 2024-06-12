@@ -1,5 +1,9 @@
 # Configuration file for the Sphinx documentation builder.
 
+
+import DGRL-Hardware
+
+
 # -- Project information
 
 project = 'DGRL-Hardware'
