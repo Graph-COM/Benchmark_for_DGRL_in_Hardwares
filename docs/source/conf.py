@@ -3,18 +3,6 @@
 import os
 import sys
 
-print("Current working directory:", os.getcwd())
-
-sys.path.insert(0, os.path.abspath('../..'))
-print("sys.path after modification:", sys.path)
-
-
-entries = os.listdir(sys.path[0])
-print(entries)
-
-import DGRL_Hardware
-
-
 # -- Project information
 
 project = 'DGRL-Hardware'
