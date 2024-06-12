@@ -17,8 +17,6 @@ DGRL-hardware is built based on `Pytorch 2.0 <https://pytorch.org/get-started/py
 
 
 
-
-
 Get Started
 ==============
 
