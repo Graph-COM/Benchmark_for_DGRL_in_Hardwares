@@ -60,8 +60,8 @@ To get started, one may first set-up the environment, then one may config DGRL m
    
 
 
-Existing Datasets
-===========
+Introduction on Existing Datasets
+====================================
 
    - `Dataset Introduction <data/intro.html>`_
 
@@ -70,8 +70,8 @@ Existing Datasets
    - `DataProcessor <data/process.html>`_
 
 
-DGRL Methods
-================
+Introduction on Included DGRL Methods
+=======================================
 
    - `Configuration file to config existing methods <DGRL/configuration.html>`_
 
