@@ -65,7 +65,7 @@ Runner
         
         
 
-Details are in `./runner/HLS_runner.py <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL-Hardware/runner/HLS_runner.py>`_
+Details are in `./runner/HLS_runner.py <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL-Hardware/runner/HLS_runner.py>`_.
 
 DataProcessor
 ~~~~~~~~~~~~~~~
@@ -80,4 +80,4 @@ DataProcessor
         def read_csv_graph_raw(self, raw_dir, check_repeat_edge):
           # key function to process raw data into PyG data
 
-Details are in `./data_processor/HLS_data_processor.py <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL-Hardware/data_processor/HLS_data_processor.py>`_
+Details are in `./data_processor/HLS_data_processor.py <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL-Hardware/data_processor/HLS_data_processor.py>`_.
