@@ -21,7 +21,7 @@ An example of the genral config can be as follows:
           num_layer: 4
 
 
-The name of all the methods to call are listed in the table below, for a detailed introduction on the interface and implementation of each base model, please refer to `Introduction on base DGRL methods <base_method.html>`_:
+The name of all the methods to call are listed in the table below, for a detailed introduction on the interface and implementation of each base model, please refer to `Introduction on base DGRL methods <base_model.html>`_:
 
 
 +--------------------------+----------------+----------------+
