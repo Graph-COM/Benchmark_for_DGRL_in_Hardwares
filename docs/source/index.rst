@@ -78,21 +78,12 @@ Introduction on Included DGRL Methods
 
    - `Base Models: GNN backbones or Graph Transformers <DGRL/base_model.html>`_
 
-PE
------- 
+Introduction to Positional Encoding (PE)
+------------------------------------------
 
    - `Obtain Magnetic Laplician PE for Digraphs <DGRL/PE_obtain.html>`_
 
    - `Incorporate Magnetic Laplician PE for Digraphs <DGRL/PE_usage.html>`_
-
-
-
-Auto-Tuning with RAY
-=====================
-
-   - `design hyper-parameter space <ray/config.html>`_
-
-   - `tune with RAY <ray/functions.html>`_
 
    
 
