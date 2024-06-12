@@ -87,20 +87,18 @@ Introduction and Interface of Existing Datasets
 ----------------------------------------------------
 
 
-Introduction and Interface of Included DGRL Methods
-=======================================
+Introduction and Interface of DGRL Methods
+===========================================
 
-   - `Configuration file to config existing methods <DGRL/configuration.html>`_
-
-
-   - `Base Models: GNN backbones or Graph Transformers <DGRL/base_model.html>`_
+`Base Models: GNN backbones or Graph Transformers <DGRL/base_model.html>`_
+----------------------------------------------------------------------------
 
 Introduction and Interface of Positional Encoding (PE)
 ---------------------------------------------------------
 
-   - `Obtain Magnetic Laplician PE for Digraphs <DGRL/PE_obtain.html>`_
+- `Obtain Magnetic Laplician PE for Digraphs <DGRL/PE_obtain.html>`_
 
-   - `Incorporate Magnetic Laplician PE for Digraphs <DGRL/PE_usage.html>`_
+- `Incorporate Magnetic Laplician PE for Digraphs <DGRL/PE_usage.html>`_
 
    
 
