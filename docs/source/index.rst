@@ -47,7 +47,7 @@ To get started, one may first set-up the environment, then one may config DGRL m
 
       - `Select from existing datasets <data/data_select.html>`_
 
-      - `Customize new datasets <datadata_customize.html>`_
+      - `Customize new datasets <data/data_customize.html>`_
 
    -  `Tune with RAY <intro_tune.html>`_
 
