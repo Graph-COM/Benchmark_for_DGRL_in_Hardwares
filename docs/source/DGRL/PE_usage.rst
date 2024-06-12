@@ -29,4 +29,21 @@ A sample config can be like:
     name: naive
     
 
+The table below show the configuration to use for magnetic Laplacian PE with NPE or EPE:
+
++--------+-------------+---------+-----------------+-------------+---------------------------------------+
+| stable | potential q | pe_type | pe_strategy     | pe_embedder | example                               |
++========+=============+=========+=================+=============+=======================================+
+| NPE    | q=0         | lap     | variant         | naive       | ./configs/pe/lap10/lap_naive          |
+|        |             |         |                 |             |                                       |
+| NPE    | q>0         | maglap  | variant         | naive       | ./configs/pe/maglap10/maglap_1q_naive |
+|        |             |         |                 |             |                                       |
+| EPE    | q=0         | lap     | invariant_fixed |             | ./configs/pe/lap10/lap_spe            |
+|        |             |         |                 |             |                                       |
+| EPE    | q>0         | maglap  | invariant_fixed |             | ./configs/pe/maglap10/maglap_1q_spe   |
++--------+-------------+---------+-----------------+-------------+---------------------------------------+
+
+
+The eigval_encoder is used to configure the hyper-parameters of stable PE.
+
 Note that NPE directly concatenate PE with node feature, while EPE processes PE with `stable PE <https://arxiv.org/abs/2310.02579>`_ and concatenates PE on edge features.
