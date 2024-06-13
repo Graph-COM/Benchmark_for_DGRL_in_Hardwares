@@ -157,6 +157,6 @@ for undirected message passing, set directed=0 in the general config and impleme
             x = merge(x1 + x2)
 
 
-The detailed implementation of each methods are in `./models/base_model.py <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL-Hardware/models/base_model.py>`_.
+The detailed implementation of each methods are in `./models/base_model.py <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL-Hardware/models/base_model.py>`_.
 
 
