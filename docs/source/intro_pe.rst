@@ -1,4 +1,4 @@
-An Overview of Positional ENcodings (PE)
+An Overview of Positional Encodings (PE)
 ===========================================
 
 Positional encodings (PE) for graphs are vectorized representations that can effectively describe the global position of nodes (absolute PE) or relative position of node pairs (relative PE). They provide crucial positional information and thus benefits many backbone models that is position-agnostic. For instance, on undirected graphs, PE can provably alleviate the limited expressive power of Message Passing Neural Networks; PE are also widely adopted in many graph transformers to incorporate positional information and break the identicalness of nodes in attention mechanism. As a result, the design and use of PE become one of the most important factors in building powerful graph encoders.
