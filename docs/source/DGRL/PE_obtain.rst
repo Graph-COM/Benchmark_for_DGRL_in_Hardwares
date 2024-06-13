@@ -19,7 +19,7 @@ An example to call our function for MagLap PE is as follows:
 
 
 
-The class is located at `./maglap/get_mag_lap.py <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL-Hardware/maglap/get_mag_lap.py.>`_ and is as follows:
+The class is located at `./maglap/get_mag_lap.py <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL_Hardware/maglap/get_mag_lap.py.>`_ and is as follows:
 
 .. code-block:: python
 
