@@ -1,4 +1,4 @@
-Obtain Magnetic Laplacian PE via PyG Pretransform
+Obtain Magnetic Laplacian PE via PyG Pre-transform
 ==================================================
 
 We provide a function that could obtain magnetic Laplacian PE based on `torch_geometric.transforms <https://pytorch-geometric.readthedocs.io/en/latest/modules/transforms.html>`_, our codes is built on `AddLaplacianEigenvectorPE <https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.transforms.AddLaplacianEigenvectorPE.html#torch_geometric.transforms.AddLaplacianEigenvectorPE>`_.
