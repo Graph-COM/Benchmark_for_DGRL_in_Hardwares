@@ -66,19 +66,19 @@ Introduction and Interface of Existing Datasets
 .. image:: data/fig/line.png
    :alt: Selected Datasets and Tasks
 
-`High-Level Synthesis (HLS) <data/hls.html>`_
+- `High-Level Synthesis (HLS) <data/hls.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Symbolic Reasoning (SR) <data/sr.html>`_
+- `Symbolic Reasoning (SR) <data/sr.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Pre-Routing Time Prediction (TIME) <data/time.html>`_
+- `Pre-Routing Time Prediction (TIME) <data/time.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Computational Graph (CG) <data/cg.html>`_
+- `Computational Graph (CG) <data/cg.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Operational Amplifiers (AMP) <data/amp.html>`_
+- `Operational Amplifiers (AMP) <data/amp.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
