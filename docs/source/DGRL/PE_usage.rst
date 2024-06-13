@@ -3,7 +3,7 @@ PE usage
 
 We provide two ways of incorporating PEs, node PE (NPE) and edge PE (EPE), by simply adding a configuration of PE. 
 
-The configurations can be found in `./configs/pe/ <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL-Hardware/configs/pe>`_, and the implementations can be found in `./models/middle_model.py <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL-Hardware/models/middle_model.py>`_.
+The configurations can be found in `./configs/pe/ <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL_Hardware/configs/pe>`_, and the implementations can be found in `./models/middle_model.py <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL_Hardware/models/middle_model.py>`_.
 
 
 A sample config can be like:
