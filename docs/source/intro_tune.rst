@@ -2,7 +2,7 @@ Tune with RAY after Model Configuration
 ========================================
 
 
-Users could design the hyper-parameter search space simply with a config, for the config we used for our benchmark, please refer to `./configs/ray/ <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL-Hardware/configs/ray>`_.
+Users could design the hyper-parameter search space simply with a config, for the config we used for our benchmark, please refer to `./configs/ray/ <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL_Hardware/configs/ray>`_.
 
 A sample config of RAY to search the hyper-parameter space is as follows:
 
@@ -33,7 +33,7 @@ An example command to tune with ray could be:
     >./ray_amp_gain_bigine_lap10_lap_spe.log 2>&1 </dev/null &
 
 
-The scripts to tune the methods from our benchmark is provided in `./tune.sh <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL-Hardware/tune.sh>`_.
+The scripts to tune the methods from our benchmark is provided in `./tune.sh <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL_Hardware/tune.sh>`_.
 
 
 In each Runner, we use similar functions to call RAY for hyper-parameter search, a sample of the function is as follows:
