@@ -3,11 +3,7 @@ Welcome to DGRL-Hardware's documentation!
 
 .. image:: fig/toolbox.png
 
-DGRL-Hardware is a toolbox for benchmarking **directed graph representation learning (DGRL)** methods. The DGRL methods can serve as surrogate models to give fast and cheap predictions for labels on directed graphs. The toolbox takes hardware design problems as examples, where hardware circuits can be formulated as directed graphs, and traditional simulations to access the properties of hardwares may take considerable time (hours or days). Specifically, the toolbox consists with 5 hardware designing datasets for evaluation, and users may also customize new datasets for DGRL evaluation, not limited to hardware designing tasks. 
-
-The toolbox involves DGRL method selection/customization, which implements 21 methods covering state-of-the-art methods for directed graphs including spectral methods, spatial methods and graph transformers, and provides the interface to design new methods.
-
-The toolbox also offers hyper-parameter auto-tuning and evaluation pipelines. 
+DGRL-Hardware is a toolbox for benchmarking **directed graph representation learning (DGRL)** methods. Directed graph representation learning (DGRL) can be applied in various fields, such as enhancing social network analysis, improving recommendation systems by capturing the directional interactions between users and items, and assessing the properties of hardware designs via their directed graph representations (e.g. circuit netlists, control and data flow graphs or computational graphs). DGRL-Hardware toolbox provides the implementation of spectral GNN, spatial GNN, graph transformers (GT) combined with advanced graph ML techniques (e.g. message passing direction and positional encoding), and takes the hardware design problems as examples to benchmark DGRL methods. It consists of five datasets along with 13 tasks from the hardware design loop for evaluation, and users may also customize new datasets for DGRL evaluation or create new methods to evaluate on the datasets, not limited to hardware designing tasks. The toolbox also offers hyper-parameter auto-tuning and evaluation pipelines. 
 
 DGRL-hardware is built based on `Pytorch 2.0 <https://pytorch.org/get-started/pytorch-2.0/>`_, `PyTorch Geometric <https://pytorch-geometric.readthedocs.io>`_, `PyTorch Geometric Signed and Directed <https://pytorch-geometric-signed-directed.readthedocs.io>`_, `RAY Tune <https://docs.ray.io/en/latest/tune/index.html>`_ .
 
@@ -22,7 +18,7 @@ Get Started
 
 .. image:: fig/code_frame.png
 
-DGRL-hardware is built and controlled by three configurations, namely the general config which defines the method, the PE config which determins the use of PE, and the RAY config which provides hyper-parameter search space. With the configuration, one could call a task runner for hyper-parameter tuning or evaluation. Three components are connected with the task runner, namely the dataset processor, the tuning/evaluation pipeline and the model.
+DGRL-hardware is built and controlled by three configurations, user could configure a DGRL method with the general config, which defines the GNN backbone or the graph transformer to use along with their hyper-parameters. The toolbox also provides the implementation of two kinds of positional encodings (PE) which could flexibly combine with the backbones and further improve the expressiveness of the model, users could configure the incorporation of positional encodings in the PE config. The third config is RAY config, which defines the hyper-parameter search space when conducting auto hyper-parameter tuning on the models. With the configuration, one could call a TaskRunner (as shown in the middle layer of the figure) for eitehr hyper-parameter tuning or model evaluation. Three components are connected with the TaskRunner, namely the dataset processor, the tuning/evaluation pipeline and the model implementation.
 
 To get started, one may first set-up the environment, then one may config DGRL methods (select an existing method or design a novel method) and config datasets (select an existing dataset or introduce a new dataset). After the DGRL method is configured, one may run RAY-tune for hyper-parameter tuning and then conduct performance evaluation.
    
