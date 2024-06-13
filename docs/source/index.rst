@@ -58,9 +58,10 @@ In this section, we show the interface on how to do hyper-parameter with the hel
 In this section, we introduce how to evaluate configured method on configured datasets.
 
    
+Toolbox Reference
+====================
 
-
-Introduction and Interface of Existing Datasets
+Covered Datasets
 -------------------------------------------------
 
 .. image:: data/fig/line.png
@@ -77,7 +78,7 @@ Introduction and Interface of Existing Datasets
 - `Operational Amplifiers (AMP) <data/amp.html>`_
 
 
-Introduction and Interface of DGRL Methods
+DGRL Methods
 --------------------------------------------
 
 
@@ -86,7 +87,7 @@ Introduction and Interface of DGRL Methods
 
 .. image:: fig/combination_method.png
 
-- `Introduction and Interface of Positional Encoding (PE) <intro_pe.html>`_
+- `Positional Encoding (PE) <intro_pe.html>`_
 
 
    - `Obtain Magnetic Laplician PE for Digraphs <DGRL/PE_obtain.html>`_
