@@ -28,13 +28,13 @@ To get started, one may first set-up the environment, then configure DGRL method
 1. `Environment Requirement <environment/environment.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       
-In this section, we introduce the basic environment requirement to run the toolbox.
+This section illustrates the basic environment requirement to run the toolbox.
 
 
 2. Config a method
 ~~~~~~~~~~~~~~~~~~~~~
 
-In this section, we introduce how to config a DGRL method in the toolbox. One may directly select from an existing method or customize a novel method.
+This section introduces how to config a DGRL method in the toolbox. One may select from an existing method or customize a novel method.
 
 - `Select from existing methods <DGRL/method_select.html>`_
 
@@ -43,7 +43,7 @@ In this section, we introduce how to config a DGRL method in the toolbox. One ma
 3. Config a dataset
 ~~~~~~~~~~~~~~~~~~~~~~
 
-In this section, we introduce how to config a dataset. One may select form the existing dataset or customize a novel dataset.
+This section describes how to config a dataset. One may select form the existing dataset or customize a novel dataset.
 
 - `Select from existing datasets <data/data_select.html>`_
 
@@ -52,12 +52,12 @@ In this section, we introduce how to config a dataset. One may select form the e
 4. `Tune with RAY <intro_tune.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In this section, we show the interface on how to do hyper-parameter with the help of RAY, and how to config the search space.
+This section shows the interface on how to do hyper-parameter with the help of RAY, and how to config the search space.
 
 5. `Evaluation on Existing Datasets <intro_evaluation.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In this section, we introduce how to evaluate configured method on configured datasets.
+This section introduces how to evaluate method on datasets with configuration.
 
    
 Toolbox Reference
