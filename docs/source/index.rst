@@ -18,15 +18,15 @@ Get Started
 
 .. image:: fig/code_frame.png
 
-DGRL-hardware is built and controlled by three configurations, user could configure a DGRL method with the general config, which defines the GNN backbone or the graph transformer to use along with their hyper-parameters. The toolbox also provides the implementation of two kinds of positional encodings (PE) which could flexibly combine with the backbones and further improve the expressiveness of the model, users could configure the incorporation of positional encodings in the PE config. The third config is RAY config, which defines the hyper-parameter search space when conducting auto hyper-parameter tuning on the models. With the configuration, one could call a TaskRunner (as shown in the middle layer of the figure) for eitehr hyper-parameter tuning or model evaluation. Three components are connected with the TaskRunner, namely the dataset processor, the tuning/evaluation pipeline and the model implementation.
+DGRL-Hardware is built and controlled by three configurations, user could configure a DGRL method with the general config, which defines the GNN backbone or the graph transformer to use along with MPNN layer message passing direction and their hyper-parameters. The toolbox also provides the implementation of two kinds of positional encodings (PE) which could flexibly combine with the backbones and further improve the model expressiveness, users could configure the incorporation of positional encodings in the PE config. The third config is RAY config, which defines the hyper-parameter search space when conducting auto hyper-parameter tuning on the models. With the configuration, one could call a TaskRunner (as shown in the middle layer of the figure) for either hyper-parameter tuning or model evaluation. Three key components in the toolbox are connected with the TaskRunner, namely the dataset processor, the tuning/evaluation pipeline and the model implementation.
 
-To get started, one may first set-up the environment, then one may config DGRL methods (select an existing method or design a novel method) and config datasets (select an existing dataset or introduce a new dataset). After the DGRL method is configured, one may run RAY-tune for hyper-parameter tuning and then conduct performance evaluation.
+To get started, one may first set-up the environment, then configure DGRL methods (select an existing method or design a novel method) and config datasets (select an existing dataset or introduce a new dataset). After the DGRL method is configured, one may run RAY-tune for hyper-parameter tuning and then conduct performance evaluation.
 
    
 1. `Environment Requirement <environment/environment.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       
-In this section, we introduce the basic environment requirement to tun the toolbox.
+In this section, we introduce the basic environment requirement to run the toolbox.
 
 
 2. Config a method
