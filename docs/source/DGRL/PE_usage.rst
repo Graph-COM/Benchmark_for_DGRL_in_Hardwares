@@ -1,5 +1,5 @@
-PE usage
-=========
+Positional Encoding usage
+===========================
 
 We provide two ways of incorporating PEs, node PE (NPE) and edge PE (EPE), by simply adding a configuration of PE. 
 
