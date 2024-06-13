@@ -12,5 +12,5 @@ An example command to evaluate could be:
     >./amp_gain_bigin_lap_spe_final_results_origin.log 2>&1 </dev/null &
 
 
-The scripts to tune the methods from our benchmark is provided in `./main.sh <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL-Hardware/main.sh>`_.
+The scripts to tune the methods from our benchmark is provided in `./main.sh <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL_Hardware/main.sh>`_.
 
