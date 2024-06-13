@@ -3,7 +3,8 @@ Model Evaluation with Existing Methods
 
 .. figure:: fig/code_frame.png
 
-An example command to evaluate could be:
+
+After configuring a DGRL method and specify a dataset, one could perform evaluation by training and testing with different seeds, an example command to evaluate could be:
 
 .. code-block:: sh
     
