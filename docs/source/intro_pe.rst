@@ -3,17 +3,6 @@ An Overview of PE
 
 Positional encodings (PE) for graphs are vectorized representations that can effectively describe the global position of nodes (absolute PE) or relative position of node pairs (relative PE). They provide crucial positional information and thus benefits many backbone models that is position-agnostic. For instance, on undirected graphs, PE can provably alleviate the limited expressive power of Message Passing Neural Networks; PE are also widely adopted in many graph transformers to incorporate positional information and break the identicalness of nodes in attention mechanism. As a result, the design and use of PE become one of the most important factors in building powerful graph encoders.
 
-Likely, one can expect that direction-aware PE are also crucial when it comes to directed graph encoders. 'Direction-aware' implies that PE should be able to capture the directedness of graphs. A notable example is `Magnetic Laplacian PE <https://arxiv.org/abs/2302.00049>`_, which adopts the eigenvectors of Magnetic Laplacian as PE. Note that Magnetic Laplacian can encode the directedness via the sign of phase of exp (±i2πq). Besides, when $q=0$, Magnetic Laplacian reduces to normal symmetric Laplacian. Thus, Magnetic Laplacian PE for directed graphs can be seen as a generalization of Laplacian PE for undirected graphs, and the latter is known to enjoy many nice spectral properties and be capable to capture many undirected graph distances. Therefore, Magnetic Laplacian appears to be a strong candidate for designing direction-aware PE. See `paper <https://ecmlpkdd2019.org/downloads/paper/499.pdf>`_ for a comprehensive introduction to Magnetic Laplacian.
+Likely, one can expect that direction-aware PE are also crucial when it comes to directed graph encoders. 'Direction-aware' implies that PE should be able to capture the directedness of graphs. A notable example is `Magnetic Laplacian PE <https://arxiv.org/abs/2302.00049>`_, which adopts the eigenvectors of Magnetic Laplacian as PE. Note that Magnetic Laplacian can encode the directedness via the sign of phase of exp (±i2πq). Besides, when q=0, Magnetic Laplacian reduces to normal symmetric Laplacian. Thus, Magnetic Laplacian PE for directed graphs can be seen as a generalization of Laplacian PE for undirected graphs, and the latter is known to enjoy many nice spectral properties and be capable to capture many undirected graph distances. Therefore, Magnetic Laplacian appears to be a strong candidate for designing direction-aware PE. See `paper <https://ecmlpkdd2019.org/downloads/paper/499.pdf>`_ for a comprehensive introduction to Magnetic Laplacian.
 
-Last, it is worth mentioning that there are also other PE for directed graphs, such as SVD of Adjacency matrix and directed random walk. 
-
-
-
-Magnetic Laplacian
-----------------------
-
-Magnetic Laplacian (MagLap) matrix is a Hermitian complex matrix defined by $L_q = I - D^{-1/2} A_q D^{-1/2}$, where $D$ is the diagonalized degree matrix counting both in-degree and out-degree, and $A_q$ refers to the complex matrix as follows:
-
-.. figure:: fig/maglap_notation.png
-
-with a parameter $q$ called potential. It is also worth noticing that when $q=0$, MagLap $L_q=0$ degenerates to the standard symmetric Laplacian matrix $L=I-D^{-1/2}(A+A^{T})D^{-1/2}$ as a special case, where $A$ is the Adjacency matrix.
+Last, it is worth mentioning that there are also other PE for directed graphs, such as SVD of Adjacency matrix and directed random walk.
