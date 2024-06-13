@@ -2,7 +2,7 @@ Select from an existing dataset
 =================================
 
 
-To select from one of the existing `datasets and tasks <intro.html>`_, one may configure the selected dataset in general configs, an example could be:
+To select from one of the existing datasets and tasks, one may configure the selected dataset in general configs, an example could be:
 
 .. code-block:: yaml
     
