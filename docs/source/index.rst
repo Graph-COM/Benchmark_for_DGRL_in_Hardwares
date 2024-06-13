@@ -82,7 +82,7 @@ DGRL Methods
 --------------------------------------------
 
 
-- `Base Models: GNN backbones or Graph Transformers <DGRL/base_model.html>`_
+- `Base Models: GNN Backbones or Graph Transformers <DGRL/base_model.html>`_
 
 
 .. image:: fig/combination_method.png
