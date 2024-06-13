@@ -3,11 +3,11 @@ DGRL-Hardware
 
 .. image:: docs/source/fig/toolbox.png
 
-A Benchmark for Directed Graph Representation Learning in Hardware Designs
+Here is the github repository for 'A Benchmark for Directed Graph Representation Learning in Hardware Designs'
 
-For more details, please refer to the document here:
+For more details, please refer to our `documents <https://benchmark-for-dgrl-in-hardwares.readthedocs.io/en/latest/>`_.
 
-https://benchmark-for-dgrl-in-hardwares.readthedocs.io/en/latest/
+
 
 Methods Included:
 --------------------
