@@ -3,7 +3,7 @@ Select from an Existing Method from Configuration
 
 
 
-The DGRL-Hardware toolbox provides the implementation of 21 existing combinations of backbone/message passing direction and positional encoding (PE) incorporation. One can call one of these methods by editing the general configuration (listed in `./configs/general/ <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL-Hardware/configs/general>`_) and the PE configuration (listed in `./configs/pe/ <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL-Hardware/configs/pe>`_, 
+The DGRL-Hardware toolbox provides the implementation of 21 existing combinations of backbone/message passing direction and positional encoding (PE) incorporation. One can call one of these methods by editing the general configuration (listed in `./configs/general/ <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL_Hardware/configs/general>`_) and the PE configuration (listed in `./configs/pe/ <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL_Hardware/configs/pe>`_, 
 
 An example of the genral config can be as follows:
 
