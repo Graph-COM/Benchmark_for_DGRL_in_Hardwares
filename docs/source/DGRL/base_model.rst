@@ -1,7 +1,7 @@
 Base Models
 =============
 
-The interface of each base model:
+The base models includes the GNN backbones/ graph transformers, and the MPNN message passing directions.
 
 GNN Backbones/ Graph Transformers
 -------------------------------------
