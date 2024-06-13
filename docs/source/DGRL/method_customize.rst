@@ -1,7 +1,7 @@
 To customize a new method
 ===========================
 
-To customize a new methods other than existing base models, one should give the name and implementation in `./models/base_model.py <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL-Hardware/models/base_model.py>`_, which controls the use of backbone models.
+To customize a new methods other than existing base models, one should give the name and implementation in `./models/base_model.py <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL-Hardware/models/base_model.py>`_, which controls the use of backbone models.
 
 
 Specifically, one gives the inititalization: 
