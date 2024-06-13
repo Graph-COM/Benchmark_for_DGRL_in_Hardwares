@@ -3,7 +3,7 @@ Select from an Existing Method from Configuration
 
 
 
-The DGRL-Hardware toolbox provides the implementation of 21 existing combinations of backbone/message passing direction and positional encoding (PE) incorporation. One can call one of these methods by editing the general configuration (listed in `./configs/general/ <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL_Hardware/configs/general>`_) and the PE configuration (listed in `./configs/pe/ <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL_Hardware/configs/pe>`_, 
+The DGRL-Hardware toolbox provides the implementation of 21 existing combinations of GNN, GT backbone, message passing direction and positional encoding (PE) incorporation. One can call one of these methods by editing the general configuration (listed in `./configs/general/ <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL_Hardware/configs/general>`_) and the PE configuration (listed in `./configs/pe/ <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL_Hardware/configs/pe>`_. 
 
 An example of the genral config can be as follows:
 
@@ -21,7 +21,7 @@ An example of the genral config can be as follows:
           num_layer: 4
 
 
-The name of all the methods to call are listed in the table below, for a detailed introduction on the interface and implementation of each base model, please refer to `Introduction on base DGRL methods <base_model.html>`_:
+The name of all the implemented backbones are listed in the table below, for a detailed introduction on the interface and implementation of each base model, please refer to `Introduction on base DGRL methods <base_model.html>`_:
 
 
 +--------------------------+----------------+----------------+
@@ -64,7 +64,7 @@ The name of all the methods to call are listed in the table below, for a detaile
 | GPS-P                    | bidirected     | BIPERFORMER    |
 +--------------------------+----------------+----------------+
 
-An example to config PE is shown as follows:
+An example to configure PE is shown as follows:
 
 
 .. code-block :: yaml
