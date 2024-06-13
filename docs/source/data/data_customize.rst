@@ -31,13 +31,13 @@ DGRL accepts the following csv format to store the raw data:
 +-------------------+-----------------------------------------+
 
 
-Examples of the raw data can be found at `./data_raw/ <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL-Hardware/data_raw>`_.
+Examples of the raw data can be found at `./data_raw/ <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL_Hardware/data_raw>`_.
 
 
 DataProcessor to handle the raw data
 --------------------------------------
 
-One need to customize a Data processor to process the raw data into PyG compatible data. The file name should be NEWDATA_data_processor.py (e.g. AMP_data_processor), saved in the folder `./data_processor <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL-Hardware/data_processor>`_.
+One need to customize a Data processor to process the raw data into PyG compatible data. The file name should be NEWDATA_data_processor.py (e.g. AMP_data_processor), saved in the folder `./data_processor <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL_Hardware/data_processor>`_.
 
 A tutorial to customize such data processor is as follows:
 
@@ -51,12 +51,12 @@ A tutorial to customize such data processor is as follows:
           
       def read_csv_graph_raw(self, raw_dir, check_repeat_edge):
           # this is the key function to process .csv files into the PyG data, 
-          # for setails please see https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL-Hardware/data_processor.
+          # for setails please see https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL_Hardware/data_processor.
 
 Runner to Run with the New Datasets
 -------------------------------------
 
-One also needs to customize a Runner to run with the new dataset. The file name should be NEWDATA_runner.py (e.g. AMP_runner.py). saved in the folder `./runner <https://github.com/peterwang66/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL-Hardware/runner>`_.
+One also needs to customize a Runner to run with the new dataset. The file name should be NEWDATA_runner.py (e.g. AMP_runner.py). saved in the folder `./runner <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/tree/main/DGRL_Hardware/runner>`_.
 
 A tutorial to customize such runner is as follows:
 
