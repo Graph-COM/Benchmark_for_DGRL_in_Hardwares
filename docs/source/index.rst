@@ -91,9 +91,9 @@ DGRL Methods
 
    - `Positional Encodings, an Overview <intro_pe.html>`_
 
-   - `Obtain Magnetic Laplician PE for Digraphs <DGRL/PE_obtain.html>`_
+   - `Obtain Magnetic Laplician PE for Directed Graphs <DGRL/PE_obtain.html>`_
 
-   - `Incorporate Magnetic Laplician PE for Digraphs <DGRL/PE_usage.html>`_
+   - `Incorporate Magnetic Laplician PE for Directed Graphs <DGRL/PE_usage.html>`_
 
    
 
