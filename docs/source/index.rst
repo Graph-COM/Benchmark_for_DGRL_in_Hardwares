@@ -9,6 +9,11 @@ DGRL-Hardware provides the implementation of multiple DGRL techniques with backb
 
 DGRL-hardware is built based on `Pytorch 2.0 <https://pytorch.org/get-started/pytorch-2.0/>`_, `PyTorch Geometric <https://pytorch-geometric.readthedocs.io>`_, `PyTorch Geometric Signed and Directed <https://pytorch-geometric-signed-directed.readthedocs.io>`_, `RAY Tune <https://docs.ray.io/en/latest/tune/index.html>`_ .
 
+
+The github repository page is available `here <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares>`_.
+
+
+
 .. note::
 
    This project is under active development.
