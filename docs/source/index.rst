@@ -67,37 +67,31 @@ Introduction and Interface of Existing Datasets
    :alt: Selected Datasets and Tasks
 
 - `High-Level Synthesis (HLS) <data/hls.html>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - `Symbolic Reasoning (SR) <data/sr.html>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - `Pre-Routing Time Prediction (TIME) <data/time.html>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - `Computational Graph (CG) <data/cg.html>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - `Operational Amplifiers (AMP) <data/amp.html>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Introduction and Interface of DGRL Methods
 --------------------------------------------
 
 
+- `Base Models: GNN backbones or Graph Transformers <DGRL/base_model.html>`_
 
-`Base Models: GNN backbones or Graph Transformers <DGRL/base_model.html>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: fig/combination_method.png
 
-`Introduction and Interface of Positional Encoding (PE) <intro_pe.html>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- `Introduction and Interface of Positional Encoding (PE) <intro_pe.html>`_
 
-- `Obtain Magnetic Laplician PE for Digraphs <DGRL/PE_obtain.html>`_
 
-- `Incorporate Magnetic Laplician PE for Digraphs <DGRL/PE_usage.html>`_
+   - `Obtain Magnetic Laplician PE for Digraphs <DGRL/PE_obtain.html>`_
+
+   - `Incorporate Magnetic Laplician PE for Digraphs <DGRL/PE_usage.html>`_
 
    
 
