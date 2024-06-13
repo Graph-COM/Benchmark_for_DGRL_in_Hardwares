@@ -36,7 +36,7 @@ An example command to tune with ray could be:
 The scripts to tune the methods from our benchmark is provided in `./tune.sh <https://github.com/Graph-COM/Benchmark_for_DGRL_in_Hardwares/blob/main/DGRL_Hardware/tune.sh>`_.
 
 
-In each Runner, we use similar functions to call RAY for hyper-parameter search, a sample of the function is as follows:
+In each Runner, we use similar functions to call RAY for hyper-parameter search, an example of the function is as follows:
 
 .. code-block:: python
 
