@@ -87,8 +87,9 @@ DGRL Methods
 
 .. image:: fig/combination_method.png
 
-- `Positional Encoding (PE) <intro_pe.html>`_
+- Positional Encoding (PE) 
 
+   - `Positional Encodings, an Overview <intro_pe.html>`_
 
    - `Obtain Magnetic Laplician PE for Digraphs <DGRL/PE_obtain.html>`_
 
